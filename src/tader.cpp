@@ -156,7 +156,7 @@ int main()
 	// 使客户端开始与后台服务建立连接
 	pUserApi->Init();
 	// 客户端等待报单操作完成
-	cout << 222 << endl;
+	cout << 123 << endl;
 	WaitForSingleObject(g_hEvent, INFINITE);
 	// 释放API实例
 	pUserApi->Release();
